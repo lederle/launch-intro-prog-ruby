@@ -5,6 +5,6 @@ p h[:b]
 h[:e] = 5
 p h
 
-h.select! { |k, v| v < 3.5 }
+h.select! { |k, v| v > 3.5 }
 p h
 
